@@ -20,7 +20,7 @@ Let's try to open the binary in Ghidra...
 Let's search for the main function and let's see how it works
 
 Code
-```
+```C
 
   fgets(local_28,0x14,stdin);
   iVar1 = strcmp(local_28,"abcde122313\n");
