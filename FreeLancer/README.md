@@ -65,6 +65,6 @@ gobuster dir -u http://157.245.46.178:32726/ -w /usr/share/wordlists/dirbuster/d
 
 Let's search for /administrat/panel.php
 
-![alt text][/login.png]
+![alt text][https://github.com/Berags/htb-writeups/blob/main/FreeLancer/login.png]
 
 ## SOLUTION
