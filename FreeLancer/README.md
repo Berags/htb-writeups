@@ -65,6 +65,6 @@ gobuster dir -u http://157.245.46.178:32726/ -w /usr/share/wordlists/dirbuster/d
 
 Let's search for /administrat/panel.php
 
-![/administrat/index.php](/login.png "/administrat/index.php")
+![/administrat/index.php](/FreeLancer/login.png "/administrat/index.php")
 
 ## SOLUTION
