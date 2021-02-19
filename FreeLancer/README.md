@@ -11,6 +11,7 @@ Task: Can you test how secure my website is? Prove me wrong and capture the flag
 ## FIRST THOUGHTS
 
 It might be a SQL injection
+
 I already saw the theme on start.bootstrap, maybe it's not that different
 
 ## ATTEMPS
@@ -56,7 +57,9 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 ```
 
 We can see /administrat is really interesting
+
 I tried to look up robots.txt, .htpasswor and .htaccess but wasn't able to read them
+
 Then i tried to scan for .php and html files and found out that the server was running php code on backend
 
 ```bash
@@ -68,9 +71,11 @@ Let's search for /administrat/panel.php
 ![/administrat/index.php](/FreeLancer/login.png "/administrat/index.php")
 
 As you can see the website redirects to /administrat/index.php which is a login page
+
 Maybe it's running some sort of SQL Database on backend?
 
 Let's search on the main page if we can find something
+
 On the index.php page we can find this href
 
 ```html
@@ -101,6 +106,7 @@ Database: freelancer
 ```
 
 We did find 2 tables!
+
 Let's try now use sqlmap to scan the tables rows
 
 ```bash
